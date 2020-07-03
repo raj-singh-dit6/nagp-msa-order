@@ -19,7 +19,7 @@ public class OrderServiceImpl implements OrderService{
 	static {
 		LOG.debug("init predefined list of orders");
 		Order o1=new Order(1,100.00, "14-Apr-2020");
-		Order o2=new Order(1,250.00, "15-Apr-2020");
+		Order o2=new Order(2,250.00, "15-Apr-2020");
 		orders= new ArrayList<>();
 		orders.add(o1);
 		orders.add(o2);
