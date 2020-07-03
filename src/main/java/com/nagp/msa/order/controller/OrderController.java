@@ -23,8 +23,8 @@ public class OrderController {
 	
 	
 	@GetMapping("/{orderId}")
-	public ResponseEntity<OrdersDto> getOrder(@PathVariable Integer orderId) {
-		LOG.debug("inside UserController.getUser method");
+	public ResponseEntity<OrdersDto> getOrders(@PathVariable Integer orderId) {
+		LOG.debug("inside UserController.getOrders method");
 		return new ResponseEntity<>(orderService.getOrders(orderId), HttpStatus.OK);
 	}
 
