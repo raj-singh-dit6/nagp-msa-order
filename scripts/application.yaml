@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: user
-        image: rajsingh6/orderservice:v1
+        image: rajsingh6/orderservice:v2
         ports:
           - containerPort: 8060
         env:
